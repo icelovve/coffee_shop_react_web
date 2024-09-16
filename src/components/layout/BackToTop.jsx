@@ -8,7 +8,7 @@ const BackToTop = () => {
         };
     return (
         <div>
-            <a href="#" className="btn btn-lg btn-primary btn-lg-square back-to-top" onClick={handleScrollToTop}><i className="fa fa-angle-double-up" /></a>
+            <a className="btn btn-lg btn-primary btn-lg-square back-to-top" onClick={handleScrollToTop}><i className="fa fa-angle-double-up" /></a>
         </div>
     )
 }
